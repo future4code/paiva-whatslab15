@@ -8,6 +8,7 @@ class App extends React.Component {
   render(){
   return(
     <div>
+    <h1>Teste</h1>
     <InputMessage />
     </div>
   );
