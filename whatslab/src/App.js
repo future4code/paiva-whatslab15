@@ -44,11 +44,12 @@ const ContainerAreaMensagem = styled.div`
   box-sizing: border-box;
   width: 37.5rem;
   box-shadow: 5px 5px 15px -5px #000000;
+  background-color: #D3D3D3;
   background-image: url("https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25")
 `
 const AreaMensagem = styled.div`
-  
-  background-image: url("https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25")
+background-image: url("https://preview.redd.it/qwd83nc4xxf41.jpg?width=640&crop=smart&auto=webp&s=e82767fdf47158e80604f407ce4938e44afc6c25")
+  background-color:#D3D3D3;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
