@@ -6,20 +6,6 @@ import styled from 'styled-components';
 //import { InputMessage } from './components/inputMessage.js';
 //export default () => <img src={bg.jpeg}/>
 
-
-const ContainerAreaMensagem = styled.div`
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  height: 100vh;
-  box-sizing: border-box;
-  width: 37.5rem;
-  box-shadow: 5px 5px 15px -5px #000000;
-  background-color: yellowgreen
-
-
-`;
 const AreaMensagem = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -33,6 +19,21 @@ const AreaMensagem = styled.div`
     padding: 5px;
   }
 `;
+
+const ContainerBackMensagem = styled.div`
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+  box-sizing: border-box;
+  width: 37.5rem;
+  box-shadow: 5px 5px 15px -5px #000000;
+  background-color: beige
+
+
+`;
+
 const AreaForm = styled.form`
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -104,7 +105,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <ContainerAreaMensagem>
+      <ContainerBackMensagem>
         <AreaMensagem>
           {this.state.mensagens.map((mensagem, index) => {
             return (
@@ -132,7 +133,7 @@ class App extends React.Component {
           />
           <button onClick={this.enviarMensagem}>Enviar</button>
         </AreaForm>
-      </ContainerAreaMensagem>
+      </ContainerBackMensagem>
     );
   }
 }
