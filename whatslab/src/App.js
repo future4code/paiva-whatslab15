@@ -55,7 +55,6 @@ const InputMensagem = styled.input`
   border-radius: 0.3rem;
   margin-left: 0.5rem;
   outline: none;
-  //background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
 `;
 const InputNome = styled.input`
   width: 6.25rem;
