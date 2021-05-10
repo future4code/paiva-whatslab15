@@ -8,7 +8,8 @@ http://ordinary-children.surge.sh/index.html
 <h4 align="center"> 
 	🚧  Operacional!!! 🚀  🚧
 </h4>
-shttps://user-images.githubusercontent.com/81537288/117601999-01ae3600-b126-11eb-9215-5b87640a4e51.png
+
+https://user-images.githubusercontent.com/81537288/117601999-01ae3600-b126-11eb-9215-5b87640a4e51.png
 
 
 
